@@ -154,7 +154,7 @@
 		font-mono:    "New Computer Modern",
 
 		// To hơn nhiều so với print
-		size-body:  20pt,
+		size-body:  18pt,
 		size-small: 16pt,
 		size-tiny:  13pt,
 		size-h1:    32pt,

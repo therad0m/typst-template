@@ -63,10 +63,10 @@
 // -------------------------------------------------------------
 
 // Bìa
-#import "pages/cover.typ": report-cover, //slide-cover
+#import "pages/cover.typ": report-cover, slide-cover, slide-outline
 
 // Phần mở đầu
-#import "pages/frontmatter.typ": list-of-tables, list-of-figures, list-of-abbreviations
+#import "pages/front.typ": list-of-tables, list-of-figures, list-of-abbreviations, bib
 
 // Mục lục
 // #import "blocks/outlines.typ": toc, list-of-figures,
@@ -86,6 +86,9 @@
 
 // Báo cáo đồ án / tiểu luận
 #import "templates/report.typ": report, report-image, report-table
+
+// Slide thuyết trình
+#import "templates/presentation.typ": presentation, slide-content
 
 // Ghi chú học tập
 // #import "templates/notes.typ": notes

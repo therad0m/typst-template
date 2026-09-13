@@ -116,7 +116,7 @@
             #if it.element.func() == figure [
                 #grid(
                     columns: 1fr,
-                    strong[
+                    [
                         #let figure-counter = if it.element.body.func() == table { table-counter } else { image-counter }
                         #numbering("1.1", counter(heading).at(location).first(), figure-counter.at(location).first())
                         #h(0.5em)
